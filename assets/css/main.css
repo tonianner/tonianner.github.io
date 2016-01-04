@@ -36,8 +36,11 @@ body {
 }
 
 footer {
-  background-color: #f3f3f3;
   border-top: 4px solid #f78e21;
+  background: #E8EEF4;
+  color: #7c8081;
+  padding: 5em 5em 10em 5em;
+  text-align: center;
 }
 
 .blue {
