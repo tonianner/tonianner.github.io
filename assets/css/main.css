@@ -20,6 +20,9 @@ body {
   font-weight: bold;
   padding: 2px 4px;
 }
+.section-project {
+  background-color: #ecf1f1;
+}
 
 .tags-others {
   background: #5bc0de;
