@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  $("div.blog-post").hover(
+  $("div.project-post").hover(
     function() {
       $(this).find("div.content-hide").slideToggle("fast");
     },
