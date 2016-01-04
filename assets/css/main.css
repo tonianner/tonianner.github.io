@@ -38,7 +38,14 @@ body {
 footer {
   background-color: #f3f3f3;
   border-top: 4px solid #f78e21;
-  margin-top: 120px;
+}
+
+.blue {
+  color: #09F;
+}
+
+.green {
+  color: #0A0;
 }
 
 
