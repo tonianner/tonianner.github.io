@@ -1,3 +1,47 @@
+body {
+  padding-top: 50px;
+}
+
+.heading-section {
+  text-align: center;
+  padding: 20px 0 50px 0;
+}
+
+.heading-section h2{
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#static-index {
+  background-image:
+    url('../images/cute-wallpaper.jpg');
+  background-size: cover;
+  padding-top: 160px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+#static-banner h1{
+  font-weight: 300;
+  font-size: 70px;
+  padding-bottom: 10px;
+}
+
+#static-banner span {
+  color: turquoise;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+footer {
+  background-color: #f3f3f3;
+  border-top: 4px solid #f78e21;
+  margin-top: 120px;
+}
+
+
 /*-- Services --*/
 
 .service-item {
