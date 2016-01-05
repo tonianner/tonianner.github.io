@@ -14,7 +14,6 @@ blockquote {
   border: 0;
 }
 
-
 blockquote cite {
   color: #999999;
   font-size: 14px;
@@ -101,6 +100,20 @@ header {
   color: turquoise;
   font-weight: bold;
   text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+#banner div > a span i{
+  border: 1px solid white;
+  border-radius: 62px;
+}
+
+@media (max-width: 767px) {
+  #banner h1{
+    font-size: 50px;
+  }
+  #banner a{
+    font-size: 10px;
+  }
 }
 
 /*-- End Header banner --*/
