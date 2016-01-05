@@ -29,6 +29,11 @@ td {
   text-align: justify;
 }
 
+nav,
+#banner {
+  font-family: 'Chewy', cursive;
+}
+
 
 /*-- Tags to be colored --*/
 /*http://bootsnipp.com/snippets/featured/310-user-profile-in-modal-window*/
