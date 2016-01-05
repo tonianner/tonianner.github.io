@@ -34,6 +34,56 @@ nav,
   font-family: 'Chewy', cursive;
 }
 
+/* Projects in Carousel style */
+
+#myCarousel .nav a small {
+  display:block;
+}
+#myCarousel .nav {
+  background:#eee;
+}
+#myCarousel .nav a {
+  border-radius:0px;
+}
+
+#myCarousel .nav li.active a small,
+.content-show span
+{
+  color: #f78e21;
+}
+
+.caption {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  padding: 10px;
+  background: rgba(0,0,0,0.6);
+  text-shadow: none;
+}
+
+
+.content-show a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content-show a i{
+  color: #00ffcc;
+  padding-right: 5px;
+  font-size: 25px;
+}
+
+.content-show a:first-child i{
+  margin-top: -2px;
+  font-size: 28px;
+  }
+
+/* End Projects*/
+
 
 /*-- Tags to be colored --*/
 /*http://bootsnipp.com/snippets/featured/310-user-profile-in-modal-window*/

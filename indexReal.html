@@ -80,7 +80,7 @@ http://www.templatemo.com/free-website-templates/417-grill
     </div>
   </header>
 
-  <div class="container" id="about">
+  <section class="container" id="about">
     <div class="row">
       <div class="col-md-12">
         <div class="heading-section">
@@ -99,7 +99,7 @@ http://www.templatemo.com/free-website-templates/417-grill
         </blockquote>
       </center>
 
-      <div class="container col-sm-8 col-sm-offset-2 text-justify">
+      <article class="container col-sm-8 col-sm-offset-2 text-justify">
         <p>A full-stack web developer that graduated from General Assembly's Web Development Immersive program in HKSAR and a background with user experience, hospitality and the beauty industry. I joined GA since I wanted to have career change and what better way to change than joining the Intensive 12 week Web Development course. I enjoy learning and I enjoy being able to create a product with code.</p>
 
         <p>When I'm not coding, I enjoy watching re-runs of Friends or any comedy act or cooking shows on YouTube.</p>
@@ -147,116 +147,106 @@ http://www.templatemo.com/free-website-templates/417-grill
             </tr>
           </tbody>
         </table>
-
-      </div>
-    </div>
-  </div>
-
+      </article>
+    </div> <!-- end row -->
+  </section> <!-- end container -->
 
   <!-- Latest Projects -->
   <section id="projects" class="section-project">
     <hr>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="heading-section">
-            <h2>Projects</h2>
-            <img src="assets/images/under-heading.png">
-          </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="heading-section">
+          <h2>Projects</h2>
+          <img src="assets/images/under-heading.png">
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <div class="project-post">
-            <div class="project-thumb">
-              <img src="http://placehold.it/345x234" alt="" />
-            </div>
-            <div class="project-content">
+    </div>
+
+    <!-- http://bootsnipp.com/snippets/featured/tabbed-slider-carousel -->
+    <!-- or http://sevenx.de/demo/bootstrap-carousel/#.Vou4opN96t8 -->
+    <article class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ul class="nav nav-pills nav-justified" id="carousel-menu">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#">Vote-yo-list<small>Web Development</small></a></li>
+          <li data-target="#myCarousel" data-slide-to="1"><a href="#">Helpz<small>Web Development</small></a></li>
+          <li data-target="#myCarousel" data-slide-to="2"><a href="#">Sushi-ME-Away<small>Web Development</small></a></li>
+          <li data-target="#myCarousel" data-slide-to="3"><a href="#">Shoot-Em<small>Web Development</small></a></li>
+          <li data-target="#myCarousel" data-slide-to="4"><a href="#">Earthero<small>User Experience</small></a></li>
+        </ul>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <img src="http://placehold.it/1200x400/cccccc/ffffff">
+             <div class="caption">
               <div class="content-show">
                 <a href="https://github.com/tonianner/vote-yo-list.git" target="_blank"><i class="fa fa-github-square pull-right"></i></a>
                 <a href="https://vote-yo-list.herokuapp.com/#/" target="_blank"><i class="fa fa-desktop pull-right"></i></a>
                 <h4><a href="single-post.html">Vote-yo-list</a></h4>
-                <span>WDI</span>
+                <span>Web Development</span>
               </div>
-              <div class="content-hide">
-                <p> The last and final project at General Assembly's Web Development Course which took 2 weeks to complete. I have created an event list organizer. In one platform you can create an event, vote for a location with your friends(work in progress) and make a checklist for that event. I wanted to explore using different libraries for Ruby and Angularjs (e.g. Angular-xeditable, ihover, ui-sortable and underscore).</p>
+              <p> The last and final project at General Assembly's Web Development Course which took 2 weeks to complete. I have created an event list organizer. In one platform you can create an event, vote for a location with your friends(work in progress) and make a checklist for that event. I wanted to explore using different libraries for Ruby and Angularjs (e.g. Angular-xeditable, ihover, ui-sortable and underscore).</p>
+            </div>
+          </div><!-- End Item -->
 
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="project-post">
-            <div class="project-thumb">
-              <img src="http://placehold.it/345x234" alt="" />
-            </div>
-            <div class="project-content">
+           <div class="item">
+            <img src="http://placehold.it/1200x400/999999/cccccc">
+             <div class="caption">
               <div class="content-show">
                 <a href="https://github.com/tonianner/helpz.git" target="_blank"><i class="fa fa-github-square pull-right"></i></a>
                 <a href="https://super-helpz.herokuapp.com/" target="_blank"><i class="fa fa-desktop pull-right"></i></a>
                 <h4><a href="single-post.html">Helpz</a></h4>
-                <span>WDI</span>
+                <span>Web Development/span>
               </div>
-              <div class="content-hide">
-                <p>Helpz is a place where people who love what they do helpz you get things done at an unbeatable value. I was inspired by fiverr.com for this project, so this is a scalled down replica version which took 1 week to finish. We focused more on using Ajax to get information from the API. The site is still a work in progress.</p>
-              </div>
+              <p>Helpz is a place where people who love what they do helpz you get things done at an unbeatable value. I was inspired by fiverr.com for this project, so this is a scalled down replica version which took 1 week to finish. We focused more on using Ajax to get information from the API. The site is still a work in progress.</p>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="project-post">
-            <div class="project-thumb">
-              <img src="http://placehold.it/345x234" alt="" />
-            </div>
-            <div class="project-content">
+          </div><!-- End Item -->
+
+          <div class="item">
+            <img src="http://placehold.it/1200x400/dddddd/333333">
+             <div class="caption">
               <div class="content-show">
                 <a href="https://github.com/wdi-hk-9/Project-SushiMeAway.git" target="_blank"><i class="fa fa-github-square pull-right"></i></a>
                 <a href="https://sushi-me-away.herokuapp.com/" target="_blank"><i class="fa fa-desktop pull-right"></i></a>
                 <h4><a href="single-post.html">Sushi-ME-Away</a></h4>
-                <span>WDI</span>
+                <span>Web Development</span>
               </div>
-              <div class="content-hide">
-                <p>This is a directory that one day, will be populated with all the take-out sushi stores in Hong Kong. I learned how to connect the back-end data to be viewed at the front-end. Routing different views and CSS/Bootsrap techniques which was completed in about 1 weeks time. I was partnered up with <a href="https://hk.linkedin.com/in/jackywhlee">Jacky Lee</a> for this 1 week project.</p>
-              </div>
+              <p>This is a directory that one day, will be populated with all the take-out sushi stores in Hong Kong. I learned how to connect the back-end data to be viewed at the front-end. Routing different views and CSS/Bootsrap techniques which was completed in about 1 weeks time. I was partnered up with <a href="https://hk.linkedin.com/in/jackywhlee">Jacky Lee</a> for this 1 week project.</p>
+
             </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="project-post">
-            <div class="project-thumb">
-              <img src="http://placehold.it/345x234" alt="" />
-            </div>
-            <div class="project-content">
+          </div><!-- End Item -->
+
+          <div class="item">
+            <img src="http://placehold.it/1200x400/999999/cccccc">
+             <div class="caption">
               <div class="content-show">
                 <a href="https://github.com/tonianner/shoot-Em.git" target="_blank"><i class="fa fa-github-square pull-right"></i></a>
                 <a href="http://wdi-hk-9.github.io/shoot-Em/" target="_blank"><i class="fa fa-desktop pull-right"></i></a>
                 <h4><a href="single-post.html">Shoot-Em</a></h4>
-                <span>WDI</span>
+                <span>Web Development</span>
               </div>
-              <div class="content-hide">
-                <p>As the 1st project in General Assembly's Web Development Course, I have created a web-based 2D Shooting Game created purely using jQuery, javascript, HTML and CSS that was completed within a week. I learned how to use jQuery animation and how each element is positioned on the screen.</p>
-              </div>
+              <p>As the 1st project in General Assembly's Web Development Course, I have created a web-based 2D Shooting Game created purely using jQuery, javascript, HTML and CSS that was completed within a week. I learned how to use jQuery animation and how each element is positioned on the screen.</p>
+
             </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="project-post">
-            <div class="project-thumb">
-              <img src="http://placehold.it/345x234" alt="" />
-            </div>
-            <div class="project-content">
+          </div><!-- End Item -->
+
+         <div class="item">
+            <img src="http://placehold.it/1200x400/dddddd/333333">
+            <div class="caption">
               <div class="content-show">
-                <h4><a href="single-post.html">Earthero</a></h4>
-                <span>UX</span>
+                <a href="" target="_blank"><i class="fa fa-github-square pull-right"></i></a>
+                <a href="" target="_blank"><i class="fa fa-desktop pull-right"></i></a>
+                <h4><a href="single-post.html">Shoot-Em</a></h4>
+                <span>Web Development</span>
               </div>
-              <div class="content-hide">
-                <p>Short summary of this app</p>
-              </div>
+              <p>As the 1st project in General Assembly's Web Development Course, I have created a web-based 2D Shooting Game created purely using jQuery, javascript, HTML and CSS that was completed within a week. I learned how to use jQuery animation and how each element is positioned on the screen.</p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+        </div><!-- End Carousel Inner -->
+      </div><!-- End Carousel -->
+    </article>
     <hr>
   </section>
   <!-- End Latest Projects -->
@@ -289,6 +279,7 @@ http://www.templatemo.com/free-website-templates/417-grill
             </div>
           </div>
         </li>
+
         <li class="timeline-inverted">
           <div class="timeline-badge"><i class="glyphicon fa fa-graduation-cap"></i></div>
           <div class="timeline-panel">
@@ -302,6 +293,7 @@ http://www.templatemo.com/free-website-templates/417-grill
             </div>
           </div>
         </li>
+
         <li>
           <div class="timeline-badge info"><i class="glyphicon fa fa-briefcase"></i></div>
           <div class="timeline-panel">
@@ -315,6 +307,7 @@ http://www.templatemo.com/free-website-templates/417-grill
             </div>
           </div>
         </li>
+
         <li class="timeline-inverted">
           <div class="timeline-badge"><i class="glyphicon fa fa-graduation-cap"></i></div>
           <div class="timeline-panel">
@@ -328,6 +321,7 @@ http://www.templatemo.com/free-website-templates/417-grill
             </div>
           </div>
         </li>
+
         <li>
           <div class="timeline-badge info"><i class="glyphicon fa fa-briefcase"></i></div>
           <div class="timeline-panel">
@@ -341,6 +335,7 @@ http://www.templatemo.com/free-website-templates/417-grill
             </div>
           </div>
         </li>
+
         <li class="timeline-inverted">
           <div class="timeline-badge info"><i class="glyphicon fa fa-briefcase"></i></div>
           <div class="timeline-panel">
@@ -355,6 +350,7 @@ http://www.templatemo.com/free-website-templates/417-grill
             </div>
           </div>
         </li>
+
         <li>
           <div class="timeline-badge"><i class="glyphicon fa fa-graduation-cap"></i></div>
           <div class="timeline-panel">
@@ -368,6 +364,7 @@ http://www.templatemo.com/free-website-templates/417-grill
             </div>
           </div>
         </li>
+
         <li class="timeline-inverted">
           <div class="timeline-badge"><i class="glyphicon fa fa-graduation-cap"></i></div>
           <div class="timeline-panel">
@@ -390,35 +387,34 @@ http://www.templatemo.com/free-website-templates/417-grill
     <h2>Contact</h2>
     <p>tonianne(dot)romero(at)gmail(dot)com </p>
 
-    <div>
-      <a href="mailto:tonianne.romero@gmail.com?Subject=Hello%20Toni" target="_top">
-        <span class="fa-stack fa-2x">
-          <i class="fa fa-circle fa-stack-2x" style="color: #da83ae;"></i>
-          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
+    <a href="mailto:tonianne.romero@gmail.com?Subject=Hello%20Toni" target="_top">
+      <span class="fa-stack fa-2x">
+        <i class="fa fa-circle fa-stack-2x" style="color: #da83ae;"></i>
+        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
 
-      <a href="https://hk.linkedin.com/in/tonianne00" target="_blank">
-        <span class="fa-stack fa-2x">
-          <i class="fa fa-circle fa-stack-2x" style="color: #db6b67"></i>
-          <i class="fa fa-linkedin-square fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
+    <a href="https://hk.linkedin.com/in/tonianne00" target="_blank">
+      <span class="fa-stack fa-2x">
+        <i class="fa fa-circle fa-stack-2x" style="color: #db6b67"></i>
+        <i class="fa fa-linkedin-square fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
 
-      <a href="http://github.com/tonianner" target="_blank">
-        <span class="fa-stack fa-2x">
-          <i class="fa fa-circle fa-stack-2x" style="color: #dcad8b;"></i>
-          <i class="fa fa-github-square fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
+    <a href="http://github.com/tonianner" target="_blank">
+      <span class="fa-stack fa-2x">
+        <i class="fa fa-circle fa-stack-2x" style="color: #dcad8b;"></i>
+        <i class="fa fa-github-square fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
 
-      <a href="http://profiles.generalassemb.ly/tonianne-romero" target="_blank">
-        <span class="fa-stack fa-2x">
-          <i class="fa fa-circle fa-stack-2x" style="color: #70aecd;"></i>
-          <i class="fa fa-user fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-    </div>
+    <a href="http://profiles.generalassemb.ly/tonianne-romero" target="_blank">
+      <span class="fa-stack fa-2x">
+        <i class="fa fa-circle fa-stack-2x" style="color: #70aecd;"></i>
+        <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+      </span>
+    </a>
+
     <p>
       <span> Design Inspiration: <a rel="nofollow" href="http://www.templatemo.com" target="_blank"><span class="blue">template</span><span class="green">mo</span></a></span>
     </p>
