@@ -34,10 +34,15 @@ nav,
   font-family: 'Chewy', cursive;
 }
 
+.navbar-nav > li >a:hover{
+  color: lightsalmon !important;
+}
+
 .navbar-brand,
 #banner h1 {
   color: deeppink !important;
 }
+
 .navbar-brand span,
 #banner h1 span{
   color: black !important;
