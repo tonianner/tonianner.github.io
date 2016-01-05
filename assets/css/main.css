@@ -202,6 +202,19 @@ footer {
   color: #fff;
 }
 
+.content-show a i{
+  color: #00ffcc;
+  padding-right: 5px;
+  font-size: 25px;
+}
+
+.content-show a:first-child i{
+  margin-top: -2px;
+  font-size: 28px;
+  }
+
+
+
 /*-- End Projects --*/
 
 
