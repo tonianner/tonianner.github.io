@@ -34,6 +34,15 @@ nav,
   font-family: 'Chewy', cursive;
 }
 
+.navbar-brand,
+#banner h1 {
+  color: deeppink !important;
+}
+.navbar-brand span,
+#banner h1 span{
+  color: black !important;
+}
+
 /* Projects in Carousel style */
 
 #myCarousel .nav a small {
@@ -174,10 +183,18 @@ header {
   margin: 4%;
 }
 
-#banner .turquoise {
-  color: turquoise;
+#banner h1 {
   font-weight: bold;
   text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+#banner h1 span{
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
 }
 
 #banner div > a span i{
