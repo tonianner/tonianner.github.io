@@ -21,6 +21,12 @@ blockquote cite {
   margin-top: 5px;
 }
 
+blockquote cite a:link,
+blockquote cite a:visited
+{
+  text-decoration: none;
+}
+
 td {
   padding: 6px;
 }
@@ -85,6 +91,7 @@ nav,
 
 .caption p {
   color: floralwhite;
+  font-family: 'Lora', serif;
 }
 
 .caption p a:link,
@@ -93,7 +100,8 @@ nav,
   color: lightblue;
 }
 
-.content-caption a {
+.content-caption a,
+ .content-caption h4{
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
