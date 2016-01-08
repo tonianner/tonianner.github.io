@@ -68,7 +68,7 @@ nav,
 }
 
 #myCarousel .nav li.active a small,
-.content-caption span
+.content-caption table tbody tr td small
 {
   color: #f78e21;
 }
@@ -120,6 +120,10 @@ nav,
   font-size: 28px;
 }
 
+.white {
+  color: white;
+}
+
 /* End Projects*/
 
 
@@ -132,6 +136,7 @@ nav,
   color: #f5f5f5;
   font-weight: bold;
   padding: 1px 4px;
+  color: white !important;
 }
 
 .tags-ux {
@@ -140,6 +145,7 @@ nav,
   color: #f5f5f5;
   font-weight: bold;
   padding: 1px 4px;
+  color: white !important;
 }
 .section-project {
   background-color: #ecf1f1;
@@ -151,6 +157,7 @@ nav,
   color: #f5f5f5;
   font-weight: bold;
   padding: 1px 4px;
+  color: white !important;
 }
 /*-- End Tags to be colored --*/
 
