@@ -54,7 +54,8 @@ nav,
   display:block;
 }
 #myCarousel .nav {
-  background: wheat;
+  background: #F5B3B3;
+  border: 1px solid grey;
 }
 #myCarousel .nav a {
   border-radius:0px;
