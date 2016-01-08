@@ -16,9 +16,9 @@ $(document).ready(function() {
 
   // Carousel style for Projects
   // http://bootsnipp.com/snippets/featured/tabbed-slider-carousel
-  $('#myCarousel').carousel({
-    interval: 10000
-  });
+  // $('#myCarousel').carousel({
+  //   interval: 20000
+  // });
 
   var clickEvent = false;
   $('#myCarousel').on('click', '.nav a', function() {
