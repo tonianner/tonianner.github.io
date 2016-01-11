@@ -2,6 +2,16 @@ body {
   padding-top: 50px;
 }
 
+.folder-icon {
+  font-size: 24px !important;
+}
+
+
+.mobile-icon {
+  font-size: 38px !important;
+  margin-top: -9px !important;
+}
+
 blockquote {
   font-family: Georgia, serif;
   font-size: 18px;
