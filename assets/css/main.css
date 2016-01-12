@@ -6,6 +6,11 @@ body {
   font-size: 24px !important;
 }
 
+.img-circle {
+  height: 180px;
+  margin-top: -32px;
+}
+
 
 .mobile-icon {
   font-size: 38px !important;
@@ -70,16 +75,14 @@ nav,
   display:block;
 }
 #myCarousel .nav {
-  background: #F5B3B3;
+  background: antiquewhite;
   border: 1px solid grey;
 }
 #myCarousel .nav a {
   border-radius:0px;
 }
 
-#myCarousel .nav li.active a small,
-.content-caption table tbody tr td small
-{
+#myCarousel .nav li.active a small {
   color: #f78e21;
 }
 
@@ -95,7 +98,7 @@ nav,
   bottom: 0;
   text-align: left;
   padding: 10px;
-  background: rgba(0,0,0,0.6);
+  background: slategrey;
   text-shadow: none;
 }
 
@@ -132,6 +135,10 @@ nav,
 
 .white {
   color: white;
+}
+
+.nav-pills>li.active>a {
+  background: slategrey !important;
 }
 
 /* End Projects*/
