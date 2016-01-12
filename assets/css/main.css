@@ -83,7 +83,7 @@ nav,
 }
 
 #myCarousel .nav li.active a small {
-  color: #f78e21;
+  color: skyblue;
 }
 
 .carousel-inner .item img{
@@ -123,7 +123,7 @@ nav,
 }
 
 .content-caption a i{
-  color: #00ffcc;
+  color: turquoise;
   padding-right: 5px;
   font-size: 25px;
 }
