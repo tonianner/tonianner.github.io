@@ -215,10 +215,11 @@ nav,
 }
 
 .heading-section h2{
-  font-size: 20px;
-  color: #333;
-  font-weight: 700;
+  font-size: 28px;
+  color: darkorange;
   text-transform: uppercase;
+  font-family: 'Chewy', cursive;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
 
 /*-- End Each header Section  --*/
