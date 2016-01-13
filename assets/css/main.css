@@ -112,7 +112,7 @@ nav,
 .caption p a:link,
 .caption p a:visited
 {
-  color: lightblue;
+  color: aqua;
 }
 
 
@@ -277,12 +277,24 @@ header {
   border-radius: 62px;
 }
 
+@media (max-width: 1200px) {
+  #banner a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 567px) {
+  #banner a {
+    font-size: 8px;
+  }
+}
+
 @media (max-width: 767px) {
   #banner h1{
     font-size: 50px;
   }
-  #banner a{
-    font-size: 10px;
+  #banner h3 {
+    font-size: 20px;
   }
 }
 
