@@ -10,11 +10,15 @@ body {
   height: 180px;
 }
 
-
 .mobile-icon {
   font-size: 38px !important;
   margin-top: -9px !important;
 }
+
+#skills tbody tr td:last-child {
+  text-align: left;
+}
+
 
 blockquote {
   font-family: Georgia, serif;
@@ -154,55 +158,60 @@ nav,
 .tags-web {
   background: #1abc9c;
   border-radius: 2px;
-  color: #f5f5f5;
   font-weight: bold;
-  padding: 1px 4px;
+  padding: 0 10px;
   color: white !important;
+  font-size: 16px;
 }
 
 .tags-ux {
   background: #f0ad4e;
   border-radius: 2px;
-  color: #f5f5f5;
   font-weight: bold;
-  padding: 1px 4px;
+  padding: 0 10px;
   color: white !important;
+  white-space: nowrap;
+  font-size: 16px;
 }
 
 .tags-framework {
   background: palevioletred;
   border-radius: 2px;
-  color: #f5f5f5;
   font-weight: bold;
-  padding: 1px 4px;
+  padding: 0 10px;
   color: white !important;
+  white-space: nowrap;
+  font-size: 16px;
 }
 
 .tags-libraries {
   background: darkcyan;
   border-radius: 2px;
-  color: #f5f5f5;
   font-weight: bold;
-  padding: 1px 4px;
+  padding: 0 10px;
   color: white !important;
+  white-space: nowrap;
+  font-size: 16px;
 }
 
 .tags-others {
   background: steelblue;
   border-radius: 2px;
-  color: #f5f5f5;
   font-weight: bold;
-  padding: 1px 4px;
+  padding: 0 10px;
   color: white !important;
+  white-space: nowrap;
+  font-size: 16px;
 }
 
 .tags-other-skills {
   background: #999999;
   border-radius: 2px;
-  color: #f5f5f5;
   font-weight: bold;
-  padding: 1px 4px;
+  padding: 0 10px;
   color: white !important;
+  white-space: nowrap;
+  font-size: 16px;
 }
 /*-- End Tags to be colored --*/
 
