@@ -1,6 +1,333 @@
-/*-- Services --*/
+body {
+  padding-top: 50px;
+}
 
-.service-item {
+.folder-icon {
+  font-size: 24px !important;
+}
+
+.img-circle {
+  height: 180px;
+}
+
+.mobile-icon {
+  font-size: 38px !important;
+  margin-top: -9px !important;
+}
+
+#skills tbody tr td:last-child {
+  text-align: left;
+}
+
+
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+  border: 0;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+blockquote cite a:link,
+blockquote cite a:visited
+{
+  text-decoration: none;
+}
+
+td {
+  padding: 6px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+nav,
+#banner {
+  font-family: 'Chewy', cursive;
+}
+
+.navbar-nav > li >a:hover{
+  color: lightsalmon !important;
+}
+
+.navbar-brand,
+#banner h1 {
+  color: deeppink !important;
+}
+
+.navbar-brand span,
+#banner h1 span{
+  color: black !important;
+}
+
+/* Projects in Carousel style */
+
+#myCarousel .nav a small {
+  display:block;
+}
+#myCarousel .nav {
+  background: antiquewhite;
+  border: 1px solid grey;
+}
+#myCarousel .nav a {
+  border-radius:0px;
+}
+
+#myCarousel .nav li.active a small {
+  color: skyblue;
+}
+
+.carousel-inner .item img{
+  width: 1200px;
+  height: auto;
+  border: 1px solid lightgrey;
+}
+
+.caption {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: left;
+  padding: 10px;
+  background: slategrey;
+  text-shadow: none;
+}
+
+.caption p {
+  font-family: 'Lora', serif;
+}
+
+.caption p a:link,
+.caption p a:visited
+{
+  color: aqua;
+}
+
+
+.content-caption h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content-caption a i{
+  color: turquoise;
+  padding-right: 5px;
+  font-size: 25px;
+}
+
+.content-caption a:first-child i{
+  margin-top: -2px;
+  font-size: 28px;
+}
+
+.white {
+  color: white;
+}
+
+.nav-pills>li.active>a {
+  background: slategrey !important;
+}
+
+/* End Projects*/
+
+
+/*-- Tags to be colored --*/
+/*http://bootsnipp.com/snippets/featured/310-user-profile-in-modal-window*/
+
+.section-project {
+  background-color: #ecf1f1;
+  padding-bottom: 30px
+}
+
+.tags-web {
+  background: #1abc9c;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 0 10px;
+  color: white !important;
+  font-size: 16px;
+}
+
+.tags-ux {
+  background: #f0ad4e;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 0 10px;
+  color: white !important;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.tags-framework {
+  background: palevioletred;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 0 10px;
+  color: white !important;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.tags-libraries {
+  background: darkcyan;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 0 10px;
+  color: white !important;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.tags-others {
+  background: steelblue;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 0 10px;
+  color: white !important;
+  white-space: nowrap;
+  font-size: 16px;
+}
+
+.tags-other-skills {
+  background: #999999;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 0 10px;
+  color: white !important;
+  white-space: nowrap;
+  font-size: 16px;
+}
+/*-- End Tags to be colored --*/
+
+
+/*-- Each Header Section Text and Ribbon image --*/
+
+.heading-section {
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
+.heading-section h2{
+  font-size: 28px;
+  color: darkorange;
+  text-transform: uppercase;
+  font-family: 'Chewy', cursive;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+/*-- End Each header Section  --*/
+
+
+/*-- Header banner --*/
+
+header {
+  background-image:
+    url('../images/cute-wallpaper.jpg');
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.header-icons {
+  margin: 4%;
+}
+
+#banner h1{
+  font-weight: 300;
+  font-size: 83px;
+}
+
+#banner h3 {
+  font-size: 41px;
+  margin: 4%;
+}
+
+#banner h1 {
+  font-weight: bold;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+#banner h1 span{
+  font-weight: bold;
+  text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+#banner div > a span i{
+  border: 1px solid white;
+  border-radius: 62px;
+}
+
+@media (max-width: 1200px) {
+  #banner a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 567px) {
+  #banner a {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  #banner h1{
+    font-size: 50px;
+  }
+  #banner h3 {
+    font-size: 20px;
+  }
+}
+
+/*-- End Header banner --*/
+
+
+/*-- Footer --*/
+
+footer {
+  border-top: 4px solid #f78e21;
+  background: #E8EEF4;
+  color: #7c8081;
+  padding: 2em 5em 2em 5em;
+  text-align: center;
+}
+
+.blue {
+  color: #09F;
+}
+
+.green {
+  color: #0A0;
+}
+
+/*-- End Footer --*/
+
+
+/*-- About Me --*/
+#about {
+  padding-bottom: 40px;
+}
+
+.about-item {
   text-align: center;
 }
 
@@ -14,93 +341,13 @@
   height: 120px;
 }
 
-.service-item h4 {
+.about-item h4 {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
   margin-top: 25px;
-}
-
-/*-- End Services --*/
-
-
-/*-- Latest Posts --*/
-
-.blog-post {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.blog-thumb {
-  overflow: hidden;
-  position: relative;
-}
-
-.blog-thumb img {
-  width: 100%;
-}
-
-.blog-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgba(0,0,0,0.7);
-  color: #fff;
-  padding: 15px;
-}
-
-.content-show a {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff;
-  text-transform: uppercase;
-}
-
-.content-show span {
-  color: #f78e21;
-}
-
-.content-hide {
-  margin-top: 15px;
-  display: none;
-}
-
-.content-hide p {
-  color: #fff;
-}
-
-/*-- End Latest Posts --*/
-
-
-/*-- About Me --*/
-
-#team .team-wrapper {
-  background: #404040;
-  padding-bottom: 10px;
-  -webkit-transition: all 0.4s ease-in-out;
-          transition: all 0.4s ease-in-out;
-  position: relative;
-}
-
-#team .team-wrapper:hover {
-  cursor: pointer;
-  opacity: 0.4;
-  bottom: 4px;
-}
-
-#team .team-wrapper .team-des {
-  padding: 20px;
-}
-
-#team .team-wrapper .team-des span {
-  color: #28a7e9;
-  display: block;
-  font-weight: bold;
-  padding-bottom: 12px;
 }
 
 /*-- End About Me --*/
@@ -292,4 +539,5 @@
             right: auto;
         }
 }
+
 /*-- End Time line --*/
